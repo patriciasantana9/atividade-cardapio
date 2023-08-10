@@ -1,0 +1,97 @@
+main {
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+header {
+   width: 80vw;
+   text-align: center;
+}
+article {
+   width: 80%;
+   box-shadow: 1px 17px 20px 0px #8f8e8e26;
+   padding: 16px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+section.about {
+   width: 80%;
+}
+section.about > p {
+   font-size: 0.9em;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 0.7px;
+}
+section.plate {
+   width: 80%;
+   background-color: rgb(251 251 251);
+   padding: 16px;
+   margin: 16px;
+   gap: 8px;
+   border-radius: 24px 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+section.plate > h3 {
+   font-size: 1.2em;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section.plate > img {
+   width: 50%;
+}
+div.description {
+   background-color: rgb(255, 255, 255);
+   padding: 0px 16px;
+   border-radius: 8px;
+   width: 60%;
+   margin-bottom: 8px;
+   display: flex;
+   flex-direction: column;
+}
+div.description > p {
+   font-size: 0.8em;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.description > h4 {
+   border-bottom: solid 0.3px black;
+   font-size: 1em;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.add {
+   width: 70%;
+   margin: 8px;
+   gap: 8px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+div.add > input {
+   background-color: rgb(252, 213, 86);
+   font-size: 10px;
+   width: 24%;
+   height: 24px;
+   padding: 0px 8px;
+   border-radius: 8px;
+   border: none;
+}
+div.add > button {
+   font-size: 10px;
+   color: white;
+   background-color: brown;
+   width: 24%;
+   height: 25px;
+   padding: 8px;
+   border-radius: 8px;
+   border: none;
+}
+footer {
+   color: rgb(255, 255, 255);
+   background-color: brown;
+   text-align: center;
+   height: 32px;
+   width: 98.5vw;
+}
